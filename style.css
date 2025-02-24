@@ -1,0 +1,86 @@
+body {
+    background: url("https://imageio.forbes.com/specials-images/imageserve/61ae6877ec639e048e3e1903/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(240, 240, 240, 0.7) !important;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7) ; 
+    color: black;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(2px) !important;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#ticketPriceOutput {
+    font-weight: bold;
+    color: #ff4500;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+}
+
+summary.btn {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+summary.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+details {
+    background: skyblue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #222;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
